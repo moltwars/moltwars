@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFE44D"/>
+      <stop offset="50%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFA500"/>
+    </linearGradient>
+    <linearGradient id="goldDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#CC8800"/>
+    </linearGradient>
+    <linearGradient id="goldLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF4B0"/>
+      <stop offset="100%" stop-color="#FFD700"/>
+    </linearGradient>
+  </defs>
+  <!-- Body -->
+  <ellipse cx="32" cy="36" rx="10" ry="14" fill="url(#gold)" stroke="#CC8800" stroke-width="1"/>
+  <!-- Tail segments -->
+  <ellipse cx="32" cy="52" rx="8" ry="4" fill="url(#goldDark)" stroke="#CC8800" stroke-width="0.8"/>
+  <ellipse cx="32" cy="56" rx="7" ry="3" fill="url(#goldDark)" stroke="#CC8800" stroke-width="0.8"/>
+  <polygon points="32,59 25,64 32,62 39,64" fill="url(#gold)" stroke="#CC8800" stroke-width="0.8"/>
+  <!-- Tail fan -->
+  <ellipse cx="27" cy="63" rx="4" ry="2" fill="url(#goldLight)" stroke="#CC8800" stroke-width="0.6" transform="rotate(-15,27,63)"/>
+  <ellipse cx="37" cy="63" rx="4" ry="2" fill="url(#goldLight)" stroke="#CC8800" stroke-width="0.6" transform="rotate(15,37,63)"/>
+  <!-- Head -->
+  <ellipse cx="32" cy="23" rx="9" ry="7" fill="url(#gold)" stroke="#CC8800" stroke-width="1"/>
+  <!-- Eyes -->
+  <circle cx="27" cy="20" r="3" fill="#111"/>
+  <circle cx="37" cy="20" r="3" fill="#111"/>
+  <circle cx="27.8" cy="19.2" r="1.2" fill="#FFF"/>
+  <circle cx="37.8" cy="19.2" r="1.2" fill="#FFF"/>
+  <!-- Eye stalks -->
+  <line x1="27" y1="17" x2="26" y2="13" stroke="#CC8800" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="26" cy="12.5" r="1.5" fill="url(#goldLight)" stroke="#CC8800" stroke-width="0.5"/>
+  <line x1="37" y1="17" x2="38" y2="13" stroke="#CC8800" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="38" cy="12.5" r="1.5" fill="url(#goldLight)" stroke="#CC8800" stroke-width="0.5"/>
+  <!-- Antennae -->
+  <path d="M28,16 Q20,4 12,1" fill="none" stroke="url(#gold)" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M36,16 Q44,4 52,1" fill="none" stroke="url(#gold)" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- Left arm -->
+  <path d="M22,28 L14,22 L10,18" fill="none" stroke="url(#goldDark)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Left claw -->
+  <ellipse cx="8" cy="15" rx="5" ry="3.5" fill="url(#goldLight)" stroke="#CC8800" stroke-width="1" transform="rotate(-30,8,15)"/>
+  <path d="M5,12 Q3,9 5,7" fill="none" stroke="#CC8800" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M8,11 Q8,8 11,7" fill="none" stroke="#CC8800" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Right arm -->
+  <path d="M42,28 L50,22 L54,18" fill="none" stroke="url(#goldDark)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Right claw -->
+  <ellipse cx="56" cy="15" rx="5" ry="3.5" fill="url(#goldLight)" stroke="#CC8800" stroke-width="1" transform="rotate(30,56,15)"/>
+  <path d="M59,12 Q61,9 59,7" fill="none" stroke="#CC8800" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M56,11 Q56,8 53,7" fill="none" stroke="#CC8800" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Legs -->
+  <line x1="24" y1="34" x2="16" y2="38" stroke="url(#goldDark)" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="24" y1="38" x2="16" y2="43" stroke="url(#goldDark)" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="24" y1="42" x2="17" y2="48" stroke="url(#goldDark)" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="40" y1="34" x2="48" y2="38" stroke="url(#goldDark)" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="40" y1="38" x2="48" y2="43" stroke="url(#goldDark)" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="40" y1="42" x2="47" y2="48" stroke="url(#goldDark)" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Body segment lines -->
+  <ellipse cx="32" cy="32" rx="9.5" ry="1" fill="none" stroke="#CC8800" stroke-width="0.5" opacity="0.5"/>
+  <ellipse cx="32" cy="37" rx="9.5" ry="1" fill="none" stroke="#CC8800" stroke-width="0.5" opacity="0.5"/>
+  <ellipse cx="32" cy="42" rx="8.5" ry="1" fill="none" stroke="#CC8800" stroke-width="0.5" opacity="0.5"/>
+  <!-- Shine highlight -->
+  <ellipse cx="29" cy="30" rx="3" ry="6" fill="white" opacity="0.12" transform="rotate(-10,29,30)"/>
+</svg>
